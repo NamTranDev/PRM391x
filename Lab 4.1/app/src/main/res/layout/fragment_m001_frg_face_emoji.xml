@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#269A06"
+    tools:context=".m001_frg_face_emoji">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A6000000"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_face1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/bg_radius"
+                android:padding="10dp"
+                android:src="@drawable/ic_angry"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:id="@+id/iv_face2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius"
+                android:padding="10dp"
+                android:src="@drawable/ic_confuse"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:id="@+id/iv_face3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius"
+                android:padding="10dp"
+                android:src="@drawable/ic_lovely"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/iv_face4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/bg_radius"
+                android:padding="10dp"
+                android:src="@drawable/ic_fighting"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:id="@+id/iv_face5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius"
+                android:padding="10dp"
+                android:src="@drawable/ic_confidently"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:id="@+id/iv_face6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius"
+                android:padding="10dp"
+                android:src="@drawable/ic_wide_eyes"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_face7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/bg_radius"
+                android:padding="10dp"
+                android:src="@drawable/ic_excited"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:id="@+id/iv_face8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius"
+                android:padding="10dp"
+                android:src="@drawable/ic_panic"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iv_face9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius"
+                android:padding="10dp"
+                android:src="@drawable/ic_laught"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+    </LinearLayout>
+</FrameLayout>

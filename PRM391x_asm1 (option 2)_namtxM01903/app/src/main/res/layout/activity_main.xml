@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivAnimalCute"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_animal_cute" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hGuideLine4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hGuideLine3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hGuideLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hGuideLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vGuideLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vGuideLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <ImageView
+        android:id="@+id/ivElephant"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine2"
+        app:layout_constraintEnd_toStartOf="@+id/vGuideLine1"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hGuideLine1"
+        app:srcCompat="@drawable/ic_elephant" />
+
+    <ImageView
+        android:id="@+id/ivDragonFly"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine2"
+        app:layout_constraintEnd_toStartOf="@+id/vGuideLine2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vGuideLine1"
+        app:layout_constraintTop_toTopOf="@+id/hGuideLine1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_dragonfly" />
+
+    <ImageView
+        android:id="@+id/ivDolphin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vGuideLine2"
+        app:layout_constraintTop_toTopOf="@+id/hGuideLine1"
+        app:srcCompat="@drawable/ic_dolphin" />
+
+    <ImageView
+        android:id="@+id/ivDog"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine3"
+        app:layout_constraintEnd_toStartOf="@+id/vGuideLine1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hGuideLine2"
+        app:srcCompat="@drawable/ic_dog" />
+
+    <ImageView
+        android:id="@+id/ivPig"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine3"
+        app:layout_constraintEnd_toStartOf="@+id/vGuideLine2"
+        app:layout_constraintStart_toStartOf="@+id/vGuideLine1"
+        app:layout_constraintTop_toTopOf="@+id/hGuideLine2"
+        app:srcCompat="@drawable/ic_pig" />
+
+    <ImageView
+        android:id="@+id/ivDuck"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vGuideLine2"
+        app:layout_constraintTop_toTopOf="@+id/hGuideLine2"
+        app:srcCompat="@drawable/ic_duck" />
+
+    <ImageView
+        android:id="@+id/ivLadybug"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine4"
+        app:layout_constraintEnd_toStartOf="@+id/vGuideLine1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hGuideLine3"
+        app:srcCompat="@drawable/ic_ladybug" />
+
+    <ImageView
+        android:id="@+id/ivTurtle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine4"
+        app:layout_constraintEnd_toStartOf="@+id/vGuideLine2"
+        app:layout_constraintStart_toStartOf="@+id/vGuideLine1"
+        app:layout_constraintTop_toBottomOf="@+id/ivPig"
+        app:srcCompat="@drawable/ic_turtle" />
+
+    <ImageView
+        android:id="@+id/ivPenguin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vGuideLine2"
+        app:layout_constraintTop_toTopOf="@+id/hGuideLine3"
+        app:srcCompat="@drawable/ic_penguin" />
+
+    <ImageView
+        android:id="@+id/ivFavoriteElephant"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine2"
+        app:layout_constraintEnd_toStartOf="@+id/vGuideLine1"
+        app:srcCompat="@drawable/ic_favorite" />
+
+    <ImageView
+        android:id="@+id/ivFavoriteDragonFly"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine2"
+        app:layout_constraintEnd_toStartOf="@+id/vGuideLine2"
+        app:srcCompat="@drawable/ic_favorite" />
+
+    <ImageView
+        android:id="@+id/ivFavoriteDolphin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_favorite" />
+
+    <ImageView
+        android:id="@+id/ivFavoriteDog"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine3"
+        app:layout_constraintEnd_toStartOf="@+id/vGuideLine1"
+        app:srcCompat="@drawable/ic_favorite" />
+
+    <ImageView
+        android:id="@+id/ivFavoritePig"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine3"
+        app:layout_constraintEnd_toEndOf="@+id/vGuideLine2"
+        app:srcCompat="@drawable/ic_favorite" />
+
+    <ImageView
+        android:id="@+id/ivFavoriteDuck"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_favorite" />
+
+    <ImageView
+        android:id="@+id/ivFavoriteLadybug"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine4"
+        app:layout_constraintEnd_toEndOf="@+id/vGuideLine1"
+        app:srcCompat="@drawable/ic_favorite" />
+
+    <ImageView
+        android:id="@+id/ivFavoriteTurtle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine4"
+        app:layout_constraintEnd_toEndOf="@+id/vGuideLine2"
+        app:srcCompat="@drawable/ic_favorite" />
+
+    <ImageView
+        android:id="@+id/ivFavoritePenguin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/hGuideLine4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_favorite" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Truyen Cuoi</string>
+    <string name="txt_congai">Con gái</string>
+    <string name="txt_story">Vừa đúng vừa sai</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
